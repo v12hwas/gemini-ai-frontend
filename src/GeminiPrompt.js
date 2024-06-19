@@ -45,7 +45,7 @@ const GeminiPrompt = () => {
         cols="50"
       />
       <button onClick={handleGenerate} disabled={loading}>
-        {loading ? "Generating..." : "Generate"}
+        {loading ? "Generating...." : "Generate"}
       </button>
       {error && <p style={{ color: "red" }}>{error}</p>}
       {response && (
